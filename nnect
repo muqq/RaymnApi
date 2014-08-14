@@ -1,0 +1,22 @@
+--2014-05-07 23:31:33--  http://openssl/
+正在查找主機 openssl (openssl)... 失敗: 未知的名稱或服務。
+wget: unable to resolve host address ‘openssl’
+--2014-05-07 23:31:33--  http://s_client/
+正在查找主機 s_client (s_client)... 失敗: 未知的名稱或服務。
+wget: unable to resolve host address ‘s_client’
+--2014-05-07 23:31:33--  http://gateway.sandbox.push.apple.com:2195/
+正在查找主機 gateway.sandbox.push.apple.com (gateway.sandbox.push.apple.com)... 17.149.34.187, 17.149.34.188, 17.149.34.189
+正在連接 gateway.sandbox.push.apple.com (gateway.sandbox.push.apple.com)|17.149.34.187|:2195... 連上了。
+已送出 HTTP 要求，正在等候回應... 收不到資料。
+準備重試。
+
+--2014-05-07 23:31:34--  (嘗試第  2 次)  http://gateway.sandbox.push.apple.com:2195/
+正在連接 gateway.sandbox.push.apple.com (gateway.sandbox.push.apple.com)|17.149.34.187|:2195... 連上了。
+已送出 HTTP 要求，正在等候回應... 收不到資料。
+準備重試。
+
+--2014-05-07 23:31:36--  (嘗試第  3 次)  http://gateway.sandbox.push.apple.com:2195/
+正在連接 gateway.sandbox.push.apple.com (gateway.sandbox.push.apple.com)|17.149.34.187|:2195... 連上了。
+已送出 HTTP 要求，正在等候回應... 收不到資料。
+準備重試。
+
