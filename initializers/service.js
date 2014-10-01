@@ -9,7 +9,6 @@ exports.service = function(api, next){
 	var apns = require('../lib/Apns.js')(aws.dynamodb);
 	var gcm = require('../lib/GCM.js')(aws.dynamodb);
 	var mailer = require('../lib/mailer.js')();
-	var raymnUser = require('../lib/RaymnUser.js')(aws.dynamodb);
 	var website = require('../lib/Website.js')(aws.dynamodb);
 	api.service = {
 		customer: customer,
@@ -21,7 +20,6 @@ exports.service = function(api, next){
 		apns : apns,
 		gcm : gcm,
 		mailer : mailer,
-		raymnUser : raymnUser,
 		website : website
 	};
   next();
